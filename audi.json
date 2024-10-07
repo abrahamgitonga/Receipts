@@ -1,0 +1,196 @@
+{
+    "Audi": {
+        "Models": [
+            {
+                "name": "Audi A1",
+                "year_from": 2010,
+                "year_to": "present",
+                "types": [
+                    "Hatchback",
+                    "Sportback"
+                ]
+            },
+            {
+                "name": "Audi A3",
+                "year_from": 1996,
+                "year_to": "present",
+                "types": [
+                    "Sedan",
+                    "Hatchback",
+                    "Cabriolet"
+                ]
+            },
+            {
+                "name": "Audi A4",
+                "year_from": 1994,
+                "year_to": "present",
+                "types": [
+                    "Sedan",
+                    "Wagon",
+                    "Cabriolet"
+                ]
+            },
+            {
+                "name": "Audi A5",
+                "year_from": 2007,
+                "year_to": "present",
+                "types": [
+                    "Coupe",
+                    "Sportback",
+                    "Cabriolet"
+                ]
+            },
+            {
+                "name": "Audi A6",
+                "year_from": 1994,
+                "year_to": "present",
+                "types": [
+                    "Sedan",
+                    "Wagon"
+                ]
+            },
+            {
+                "name": "Audi A7",
+                "year_from": 2010,
+                "year_to": "present",
+                "types": [
+                    "Sportback"
+                ]
+            },
+            {
+                "name": "Audi A8",
+                "year_from": 1994,
+                "year_to": "present",
+                "types": [
+                    "Sedan"
+                ]
+            },
+            {
+                "name": "Audi Q2",
+                "year_from": 2016,
+                "year_to": "present",
+                "types": [
+                    "Subcompact Crossover"
+                ]
+            },
+            {
+                "name": "Audi Q3",
+                "year_from": 2011,
+                "year_to": "present",
+                "types": [
+                    "Compact Crossover"
+                ]
+            },
+            {
+                "name": "Audi Q5",
+                "year_from": 2008,
+                "year_to": "present",
+                "types": [
+                    "Compact Crossover"
+                ]
+            },
+            {
+                "name": "Audi Q7",
+                "year_from": 2005,
+                "year_to": "present",
+                "types": [
+                    "Mid-size SUV"
+                ]
+            },
+            {
+                "name": "Audi Q8",
+                "year_from": 2018,
+                "year_to": "present",
+                "types": [
+                    "Full-size SUV"
+                ]
+            },
+            {
+                "name": "Audi TT",
+                "year_from": 1998,
+                "year_to": "present",
+                "types": [
+                    "Coupe",
+                    "Roadster"
+                ]
+            },
+            {
+                "name": "Audi R8",
+                "year_from": 2006,
+                "year_to": "present",
+                "types": [
+                    "Sports Coupe",
+                    "Roadster"
+                ]
+            },
+            {
+                "name": "Audi e-tron",
+                "year_from": 2019,
+                "year_to": "present",
+                "types": [
+                    "Electric SUV"
+                ]
+            },
+            {
+                "name": "Audi RS3",
+                "year_from": 2011,
+                "year_to": "present",
+                "types": [
+                    "Sportback",
+                    "Sedan"
+                ]
+            },
+            {
+                "name": "Audi RS4",
+                "year_from": 1999,
+                "year_to": "present",
+                "types": [
+                    "Sedan",
+                    "Wagon"
+                ]
+            },
+            {
+                "name": "Audi RS5",
+                "year_from": 2010,
+                "year_to": "present",
+                "types": [
+                    "Coupe",
+                    "Sportback"
+                ]
+            },
+            {
+                "name": "Audi RS6",
+                "year_from": 2002,
+                "year_to": "present",
+                "types": [
+                    "Sedan",
+                    "Wagon"
+                ]
+            },
+            {
+                "name": "Audi RS7",
+                "year_from": 2013,
+                "year_to": "present",
+                "types": [
+                    "Sportback"
+                ]
+            },
+            {
+                "name": "Audi SQ5",
+                "year_from": 2013,
+                "year_to": "present",
+                "types": [
+                    "Compact Crossover"
+                ]
+            },
+            {
+                "name": "Audi SQ7",
+                "year_from": 2016,
+                "year_to": "present",
+                "types": [
+                    "Mid-size SUV"
+                ]
+            }
+        ]
+    }
+}
