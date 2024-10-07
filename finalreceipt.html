@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Automotive Garage Receipt</title>
+
+    <style>
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #555;
+        margin: 0;
+        padding: 0;
+      }
+
+      .invoice-box {
+        max-width: 800px;
+        margin: auto;
+        padding: 30px;
+        border: 1px solid #eee;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+      .invoice-box table {
+        width: 100%;
+        line-height: inherit;
+        text-align: left;
+      }
+
+      .invoice-box table td {
+        padding: 5px;
+        vertical-align: top;
+      }
+
+      .invoice-box table tr td:nth-child(2) {
+        text-align: right;
+      }
+
+      .logo {
+        text-align: left;
+      }
+
+      .invoice-title {
+        text-align: center;
+        font-size: 28px;
+        font-weight: bold;
+        padding-bottom: 20px;
+      }
+
+      .invoice-details {
+        text-align: right;
+        margin-top: 20px;
+      }
+
+      .invoice-details p {
+        margin: 5px 0;
+      }
+
+      .bill-to {
+        margin-bottom: 40px;
+      }
+
+      .car-info-section {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+      }
+
+      .car-info-section .left,
+      .car-info-section .right {
+        width: 48%;
+      }
+
+      .invoice-box table tr.heading td {
+        background: #eee;
+        border-bottom: 1px solid #ddd;
+        font-weight: bold;
+      }
+
+      .invoice-box table tr.item td {
+        border-bottom: 1px solid #eee;
+      }
+
+      .invoice-box table tr.total td:nth-child(2) {
+        border-top: 2px solid #eee;
+        font-weight: bold;
+      }
+
+      /* Footer Section */
+      .footer {
+        margin-top: 50px;
+      }
+
+      .footer-table {
+        width: 100%;
+        line-height: inherit;
+      }
+
+      .footer-table td {
+        padding: 5px;
+        vertical-align: top;
+      }
+
+      .footer-signature {
+        text-align: center;
+        padding-top: 20px;
+        border-top: 1px solid #000;
+      }
+
+      .footer-right {
+        text-align: right;
+        padding-right: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="invoice-box">
+      <!-- Header Section -->
+      <table cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="logo">
+            <img src="#" style="height: 100px;" alt="Garage Logo" />
+          </td>
+          <td class="invoice-title">Automotive Garage</td>
+          <td class="invoice-details">
+            <p><strong>Invoice #:</strong> 12345</p>
+            <p><strong>Created:</strong> 2024-10-04</p>
+            <p><strong>Due:</strong> 2024-10-14</p>
+          </td>
+        </tr>
+      </table>
+
+      <!-- Billing Information -->
+      <div class="bill-to">
+        <table>
+          <tr>
+            <td>
+              <strong>Bill To:</strong><br />
+              To Company: ABC Corp<br />
+              To Person: John Doe<br />
+              To Email: john@example.com
+            </td>
+            <td>
+              <strong>From:</strong><br />
+              Garage Name: Spark Auto Garage<br />
+              Address: 1234 Auto Street, Nairobi<br />
+              Email: info@garage.com
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Car Information Section -->
+      <div class="car-info-section">
+        <div class="left">
+          <strong>Car Information:</strong>
+          <p>Plate Number: KAD123A</p>
+          <p>Model: Toyota Corolla</p>
+          <p>Make: Toyota</p>
+        </div>
+        <div class="right">
+          <p>Year: 2020</p>
+          <p>Chasis Number: X12345ABC</p>
+          <p>Checked-in by: Mike</p>
+        </div>
+      </div>
+
+      <!-- Faults and Services -->
+      <table cellpadding="0" cellspacing="0">
+        <tr class="heading">
+          <td>Description</td>
+          <td>Price</td>
+          <td>Quantity</td>
+          <td>Total</td>
+        </tr>
+
+        <tr class="item">
+          <td>Oil Filter Replacement</td>
+          <td>Ksh. 900</td>
+          <td>1</td>
+          <td>Ksh. 900</td>
+        </tr>
+        <tr class="item">
+          <td>Brake Pad Replacement</td>
+          <td>Ksh. 2000</td>
+          <td>1</td>
+          <td>Ksh. 2000</td>
+        </tr>
+
+        <!-- Total Section -->
+        <tr class="total">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Labour: Ksh. 6000.00</td>
+        </tr>
+
+        <tr class="total">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Total: Ksh. 14,000.00</td>
+        </tr>
+
+        <!-- Additional Invoice Summary -->
+        <tr class="total">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Discount: Ksh. 1000.00</td>
+        </tr>
+
+        <tr class="total">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Paid Amount: Ksh. 13,000.00</td>
+        </tr>
+
+        <tr class="total">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Balance Due: Ksh. 1000.00</td>
+        </tr>
+
+        <tr class="total">
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>Paid Using: MPESA</td>
+        </tr>
+      </table>
+
+      <!-- Footer Section -->
+      <div class="footer">
+        <table class="footer-table">
+          <tr>
+            <td>
+              <strong>Serviced by:</strong> Njoroge<br />
+              <strong>Picked by:</strong> Ken<br />
+              <strong>Customer Signature:</strong>
+              <div class="footer-signature">__________________________</div>
+            </td>
+            <td class="footer-right">
+              <strong>Served by:</strong> Martha
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

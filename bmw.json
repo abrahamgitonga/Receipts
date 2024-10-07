@@ -1,0 +1,175 @@
+{
+    "BMW": [
+      {
+        "model": "1 Series",
+        "variants": [
+          "116i",
+          "118i",
+          "120i",
+          "M135i xDrive"
+        ]
+      },
+      {
+        "model": "2 Series",
+        "variants": [
+          "218i",
+          "220i",
+          "230i",
+          "M240i xDrive"
+        ]
+      },
+      {
+        "model": "3 Series",
+        "variants": [
+          "318i",
+          "320i",
+          "330i",
+          "330e",
+          "M340i xDrive",
+          "M3 Competition"
+        ]
+      },
+      {
+        "model": "4 Series",
+        "variants": [
+          "420i",
+          "430i",
+          "M440i xDrive",
+          "M4 Competition"
+        ]
+      },
+      {
+        "model": "5 Series",
+        "variants": [
+          "520i",
+          "530i",
+          "530e",
+          "540i xDrive",
+          "M550i xDrive",
+          "M5 Competition"
+        ]
+      },
+      {
+        "model": "6 Series",
+        "variants": [
+          "630i",
+          "640i xDrive",
+          "M6 Gran Coupe"
+        ]
+      },
+      {
+        "model": "7 Series",
+        "variants": [
+          "730i",
+          "740i",
+          "750i xDrive",
+          "M760i xDrive"
+        ]
+      },
+      {
+        "model": "8 Series",
+        "variants": [
+          "840i",
+          "M850i xDrive",
+          "M8 Competition"
+        ]
+      },
+      {
+        "model": "X1",
+        "variants": [
+          "sDrive18i",
+          "xDrive20i",
+          "xDrive25e"
+        ]
+      },
+      {
+        "model": "X2",
+        "variants": [
+          "sDrive18i",
+          "xDrive20i",
+          "xDrive25e"
+        ]
+      },
+      {
+        "model": "X3",
+        "variants": [
+          "sDrive18i",
+          "xDrive20i",
+          "xDrive30e",
+          "M40i xDrive"
+        ]
+      },
+      {
+        "model": "X4",
+        "variants": [
+          "xDrive20i",
+          "xDrive30i",
+          "M40i xDrive"
+        ]
+      },
+      {
+        "model": "X5",
+        "variants": [
+          "xDrive30i",
+          "xDrive45e",
+          "xDrive50i",
+          "M50i xDrive",
+          "X5 M Competition"
+        ]
+      },
+      {
+        "model": "X6",
+        "variants": [
+          "xDrive40i",
+          "xDrive50i",
+          "M50i xDrive",
+          "X6 M Competition"
+        ]
+      },
+      {
+        "model": "X7",
+        "variants": [
+          "xDrive40i",
+          "xDrive50i",
+          "M50i xDrive"
+        ]
+      },
+      {
+        "model": "Z4",
+        "variants": [
+          "sDrive20i",
+          "sDrive30i",
+          "M40i"
+        ]
+      },
+      {
+        "model": "i3",
+        "variants": [
+          "i3",
+          "i3s"
+        ]
+      },
+      {
+        "model": "i4",
+        "variants": [
+          "eDrive40",
+          "M50"
+        ]
+      },
+      {
+        "model": "iX",
+        "variants": [
+          "xDrive40",
+          "xDrive50"
+        ]
+      },
+      {
+        "model": "i7",
+        "variants": [
+          "xDrive60",
+          "M70 xDrive"
+        ]
+      }
+    ]
+  }
+  

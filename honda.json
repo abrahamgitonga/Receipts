@@ -1,0 +1,112 @@
+{
+    "Honda": [
+      {
+        "model": "Civic",
+        "variants": [
+          "Civic LX",
+          "Civic EX",
+          "Civic EX-L",
+          "Civic Touring",
+          "Civic Sport",
+          "Civic Si",
+          "Civic Type R"
+        ]
+      },
+      {
+        "model": "Accord",
+        "variants": [
+          "Accord LX",
+          "Accord Sport",
+          "Accord EX-L",
+          "Accord Touring",
+          "Accord Hybrid",
+          "Accord Hybrid EX-L",
+          "Accord Hybrid Touring"
+        ]
+      },
+      {
+        "model": "CR-V",
+        "variants": [
+          "CR-V LX",
+          "CR-V EX",
+          "CR-V EX-L",
+          "CR-V Touring",
+          "CR-V Hybrid"
+        ]
+      },
+      {
+        "model": "HR-V",
+        "variants": [
+          "HR-V LX",
+          "HR-V Sport",
+          "HR-V EX",
+          "HR-V EX-L"
+        ]
+      },
+      {
+        "model": "Pilot",
+        "variants": [
+          "Pilot LX",
+          "Pilot EX",
+          "Pilot EX-L",
+          "Pilot Touring",
+          "Pilot Elite",
+          "Pilot Black Edition"
+        ]
+      },
+      {
+        "model": "Passport",
+        "variants": [
+          "Passport Sport",
+          "Passport EX-L",
+          "Passport Touring",
+          "Passport Elite"
+        ]
+      },
+      {
+        "model": "Odyssey",
+        "variants": [
+          "Odyssey LX",
+          "Odyssey EX",
+          "Odyssey EX-L",
+          "Odyssey Touring",
+          "Odyssey Elite"
+        ]
+      },
+      {
+        "model": "Ridgeline",
+        "variants": [
+          "Ridgeline Sport",
+          "Ridgeline RTL",
+          "Ridgeline RTL-E",
+          "Ridgeline Black Edition"
+        ]
+      },
+      {
+        "model": "Insight",
+        "variants": [
+          "Insight LX",
+          "Insight EX",
+          "Insight Touring"
+        ]
+      },
+      {
+        "model": "Clarity",
+        "variants": [
+          "Clarity Plug-In Hybrid",
+          "Clarity Electric",
+          "Clarity Fuel Cell"
+        ]
+      },
+      {
+        "model": "Fit",
+        "variants": [
+          "Fit LX",
+          "Fit EX",
+          "Fit EX-L",
+          "Fit Sport"
+        ]
+      }
+    ]
+  }
+  

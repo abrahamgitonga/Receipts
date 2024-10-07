@@ -1,0 +1,117 @@
+{
+    "Toyota": [
+      {
+        "model": "Corolla",
+        "variants": [
+          "Corolla L",
+          "Corolla LE",
+          "Corolla XLE",
+          "Corolla SE",
+          "Corolla XSE"
+        ]
+      },
+      {
+        "model": "Camry",
+        "variants": [
+          "Camry LE",
+          "Camry SE",
+          "Camry XLE",
+          "Camry XSE",
+          "Camry TRD"
+        ]
+      },
+      {
+        "model": "RAV4",
+        "variants": [
+          "RAV4 LE",
+          "RAV4 XLE",
+          "RAV4 XLE Premium",
+          "RAV4 Adventure",
+          "RAV4 TRD Off-Road"
+        ]
+      },
+      {
+        "model": "Highlander",
+        "variants": [
+          "Highlander L",
+          "Highlander LE",
+          "Highlander XLE",
+          "Highlander Limited",
+          "Highlander Platinum"
+        ]
+      },
+      {
+        "model": "Prius",
+        "variants": [
+          "Prius L Eco",
+          "Prius LE",
+          "Prius XLE",
+          "Prius Limited"
+        ]
+      },
+      {
+        "model": "Land Cruiser",
+        "variants": [
+          "Land Cruiser GX",
+          "Land Cruiser ZX",
+          "Land Cruiser GR-Sport"
+        ]
+      },
+      {
+        "model": "Tacoma",
+        "variants": [
+          "Tacoma SR",
+          "Tacoma TRD Sport",
+          "Tacoma TRD Off-Road",
+          "Tacoma Limited",
+          "Tacoma TRD Pro"
+        ]
+      },
+      {
+        "model": "Tundra",
+        "variants": [
+          "Tundra SR",
+          "Tundra SR5",
+          "Tundra Limited",
+          "Tundra Platinum",
+          "Tundra TRD Pro"
+        ]
+      },
+      {
+        "model": "4Runner",
+        "variants": [
+          "4Runner SR5",
+          "4Runner TRD Off-Road",
+          "4Runner Limited",
+          "4Runner TRD Pro"
+        ]
+      },
+      {
+        "model": "C-HR",
+        "variants": [
+          "C-HR LE",
+          "C-HR XLE",
+          "C-HR Limited"
+        ]
+      },
+      {
+        "model": "Avalon",
+        "variants": [
+          "Avalon XLE",
+          "Avalon Touring",
+          "Avalon Limited",
+          "Avalon TRD"
+        ]
+      },
+      {
+        "model": "Supra",
+        "variants": [
+          "Supra 2.0",
+          "Supra 3.0",
+          "Supra 3.0 Premium",
+          "Supra A91 Edition"
+        ]
+      }
+    ]
+  }
+  

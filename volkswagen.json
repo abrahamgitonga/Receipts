@@ -1,0 +1,113 @@
+{
+    "Volkswagen": [
+      {
+        "model": "Golf",
+        "variants": [
+          "Golf S",
+          "Golf SE",
+          "Golf GTI",
+          "Golf R",
+          "Golf Alltrack"
+        ]
+      },
+      {
+        "model": "Passat",
+        "variants": [
+          "Passat S",
+          "Passat SE",
+          "Passat R-Line",
+          "Passat SEL"
+        ]
+      },
+      {
+        "model": "Jetta",
+        "variants": [
+          "Jetta S",
+          "Jetta SE",
+          "Jetta R-Line",
+          "Jetta SEL",
+          "Jetta GLI"
+        ]
+      },
+      {
+        "model": "Tiguan",
+        "variants": [
+          "Tiguan S",
+          "Tiguan SE",
+          "Tiguan SEL",
+          "Tiguan R-Line"
+        ]
+      },
+      {
+        "model": "Atlas",
+        "variants": [
+          "Atlas S",
+          "Atlas SE",
+          "Atlas SEL",
+          "Atlas SEL Premium",
+          "Atlas Cross Sport"
+        ]
+      },
+      {
+        "model": "Arteon",
+        "variants": [
+          "Arteon SE",
+          "Arteon SEL R-Line",
+          "Arteon SEL Premium R-Line"
+        ]
+      },
+      {
+        "model": "ID.4",
+        "variants": [
+          "ID.4 Pro",
+          "ID.4 Pro S",
+          "ID.4 AWD Pro",
+          "ID.4 AWD Pro S"
+        ]
+      },
+      {
+        "model": "Touareg",
+        "variants": [
+          "Touareg SEL",
+          "Touareg Executive"
+        ]
+      },
+      {
+        "model": "Beetle",
+        "variants": [
+          "Beetle S",
+          "Beetle SE",
+          "Beetle Final Edition",
+          "Beetle R-Line"
+        ]
+      },
+      {
+        "model": "Polo",
+        "variants": [
+          "Polo Trendline",
+          "Polo Comfortline",
+          "Polo Highline",
+          "Polo GTI"
+        ]
+      },
+      {
+        "model": "T-Roc",
+        "variants": [
+          "T-Roc S",
+          "T-Roc SE",
+          "T-Roc Design",
+          "T-Roc R-Line"
+        ]
+      },
+      {
+        "model": "Amarok",
+        "variants": [
+          "Amarok Trendline",
+          "Amarok Highline",
+          "Amarok Canyon",
+          "Amarok Ultimate"
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automotive Garage Invoice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .invoice-container {
+            width: 800px;
+            background-color: #fff;
+            padding: 20px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+        }
+
+        /* Header Styling */
+        .invoice-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .invoice-header .logo {
+            width: 20%;
+        }
+
+        .invoice-header .logo img {
+            max-width: 100px;
+        }
+
+        .invoice-header .garage-title {
+            text-align: center;
+            width: 40%;
+        }
+
+        .invoice-header .garage-title h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .invoice-header .invoice-details {
+            text-align: right;
+            width: 40%;
+        }
+
+        .invoice-header .invoice-details p {
+            margin: 5px 0;
+            font-size: 12px;
+        }
+
+        /* Main Section Styling */
+        .invoice-main {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .invoice-main .bill-to, .invoice-main .receipt-info {
+            width: 48%;
+        }
+
+        .invoice-main label, .car-info label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .invoice-main input, .car-info input {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+
+        /* Car Information Section */
+        .car-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .car-info .car-info-item {
+            width: 48%;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="invoice-container">
+        <!-- Header Section -->
+        <div class="invoice-header">
+            <!-- Logo (Left) -->
+            <div class="logo">
+                <img src="#" alt="Garage Logo">
+            </div>
+
+            <!-- Title (Center) -->
+            <div class="garage-title">
+                <h1>Automotive Garage</h1>
+            </div>
+
+            <!-- Invoice Details (Right) -->
+            <div class="invoice-details">
+                <p><strong>Invoice Number:</strong> #INV-0001</p>
+                <p><strong>Created Date:</strong> 04 October 2024</p>
+                <p><strong>Due Date:</strong> 11 October 2024</p>
+                <p><strong>To (Company):</strong> ABC Motors Ltd</p>
+                <p><strong>To (Person):</strong> John Doe</p>
+                <p><strong>To (Email):</strong> john.doe@example.com</p>
+                <p><strong>From (Company):</strong> AutoGarage Inc</p>
+                <p><strong>From (Address):</strong> 123 Auto Street, City, Country</p>
+                <p><strong>From (Email):</strong> info@autogarage.com</p>
+            </div>
+        </div>
+
+        <!-- Main Section -->
+        <div class="invoice-main">
+            <!-- Bill To Section (Left) -->
+            <div class="bill-to">
+                <label for="bill-to">Bill To:</label>
+                <input type="text" id="bill-to" placeholder="Enter Company or Person's Name">
+            </div>
+
+            <!-- Receipt Info Section (Right) -->
+            <div class="receipt-info">
+                <label for="receipt-number">Receipt Number:</label>
+                <input type="text" id="receipt-number" placeholder="Enter Receipt Number">
+                
+                <label for="receipt-date">Date:</label>
+                <input type="date" id="receipt-date">
+            </div>
+        </div>
+
+        <!-- Car Information Section -->
+        <div class="car-info">
+            <div class="car-info-item">
+                <label for="plate-number">Car Plate Number:</label>
+                <input type="text" id="plate-number" placeholder="Enter Plate Number">
+            </div>
+            <div class="car-info-item">
+                <label for="car-model">Car Model:</label>
+                <input type="text" id="car-model" placeholder="Enter Car Model">
+            </div>
+            <div class="car-info-item">
+                <label for="make">Make:</label>
+                <input type="text" id="make" placeholder="Enter Car Make">
+            </div>
+            <div class="car-info-item">
+                <label for="year">Year:</label>
+                <input type="number" id="year" placeholder="Enter Year">
+            </div>
+            <div class="car-info-item">
+                <label for="chasis-number">Chasis Number:</label>
+                <input type="text" id="chasis-number" placeholder="Enter Chasis Number">
+            </div>
+            <div class="car-info-item">
+                <label for="checked-in-by">Checked in by:</label>
+                <input type="text" id="checked-in-by" placeholder="Enter Person's Name">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

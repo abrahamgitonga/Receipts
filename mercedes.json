@@ -1,0 +1,150 @@
+{
+    "Mercedes-Benz": [
+      {
+        "model": "A-Class",
+        "variants": [
+          "A 180",
+          "A 200",
+          "A 220",
+          "A 250",
+          "AMG A 35",
+          "AMG A 45"
+        ]
+      },
+      {
+        "model": "B-Class",
+        "variants": [
+          "B 180",
+          "B 200",
+          "B 250 e"
+        ]
+      },
+      {
+        "model": "C-Class",
+        "variants": [
+          "C 200",
+          "C 300",
+          "C 300d",
+          "C 43 AMG",
+          "C 63 AMG",
+          "C 63 S AMG"
+        ]
+      },
+      {
+        "model": "E-Class",
+        "variants": [
+          "E 200",
+          "E 300",
+          "E 350",
+          "E 450",
+          "E 53 AMG",
+          "E 63 AMG",
+          "E 63 S AMG"
+        ]
+      },
+      {
+        "model": "S-Class",
+        "variants": [
+          "S 350",
+          "S 450",
+          "S 500",
+          "S 580",
+          "S 63 AMG",
+          "S 63 L AMG"
+        ]
+      },
+      {
+        "model": "CLA-Class",
+        "variants": [
+          "CLA 180",
+          "CLA 200",
+          "CLA 250",
+          "AMG CLA 35",
+          "AMG CLA 45"
+        ]
+      },
+      {
+        "model": "CLS-Class",
+        "variants": [
+          "CLS 350",
+          "CLS 450",
+          "AMG CLS 53"
+        ]
+      },
+      {
+        "model": "GLA-Class",
+        "variants": [
+          "GLA 200",
+          "GLA 250",
+          "GLA 250e",
+          "AMG GLA 35",
+          "AMG GLA 45"
+        ]
+      },
+      {
+        "model": "GLB-Class",
+        "variants": [
+          "GLB 200",
+          "GLB 250",
+          "GLB 35 AMG"
+        ]
+      },
+      {
+        "model": "GLC-Class",
+        "variants": [
+          "GLC 200",
+          "GLC 300",
+          "GLC 350e",
+          "AMG GLC 43",
+          "AMG GLC 63"
+        ]
+      },
+      {
+        "model": "GLE-Class",
+        "variants": [
+          "GLE 350",
+          "GLE 400",
+          "GLE 450",
+          "GLE 580",
+          "AMG GLE 53",
+          "AMG GLE 63"
+        ]
+      },
+      {
+        "model": "GLS-Class",
+        "variants": [
+          "GLS 450",
+          "GLS 580",
+          "AMG GLS 63",
+          "Maybach GLS 600"
+        ]
+      },
+      {
+        "model": "G-Class",
+        "variants": [
+          "G 500",
+          "G 550",
+          "AMG G 63"
+        ]
+      },
+      {
+        "model": "SLC-Class",
+        "variants": [
+          "SLC 180",
+          "SLC 200",
+          "SLC 300",
+          "AMG SLC 43"
+        ]
+      },
+      {
+        "model": "SL-Class",
+        "variants": [
+          "SL 450",
+          "SL 500",
+          "AMG SL 63",
+          "AMG SL 65"
+        ]
+      }
+    ]
+  }
+  

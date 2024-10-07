@@ -1,0 +1,73 @@
+{
+    "Subaru": {
+      "Models": [
+        {
+          "name": "Subaru Impreza",
+          "year_from": 1992,
+          "year_to": "present",
+          "types": ["Sedan", "Hatchback"]
+        },
+        {
+          "name": "Subaru WRX",
+          "year_from": 2014,
+          "year_to": "present",
+          "types": ["Sedan"]
+        },
+        {
+          "name": "Subaru Legacy",
+          "year_from": 1989,
+          "year_to": "present",
+          "types": ["Sedan", "Wagon"]
+        },
+        {
+          "name": "Subaru Outback",
+          "year_from": 1994,
+          "year_to": "present",
+          "types": ["Crossover SUV"]
+        },
+        {
+          "name": "Subaru Forester",
+          "year_from": 1997,
+          "year_to": "present",
+          "types": ["Compact SUV"]
+        },
+        {
+          "name": "Subaru Crosstrek",
+          "year_from": 2012,
+          "year_to": "present",
+          "types": ["Compact Crossover SUV"]
+        },
+        {
+          "name": "Subaru BRZ",
+          "year_from": 2012,
+          "year_to": "present",
+          "types": ["Sports Coupe"]
+        },
+        {
+          "name": "Subaru Ascent",
+          "year_from": 2018,
+          "year_to": "present",
+          "types": ["Mid-size SUV"]
+        },
+        {
+          "name": "Subaru Baja",
+          "year_from": 2002,
+          "year_to": 2006,
+          "types": ["Pickup Truck"]
+        },
+        {
+          "name": "Subaru Levorg",
+          "year_from": 2014,
+          "year_to": "present",
+          "types": ["Wagon"]
+        },
+        {
+          "name": "Subaru Tribeca",
+          "year_from": 2005,
+          "year_to": 2014,
+          "types": ["Mid-size Crossover SUV"]
+        }
+      ]
+    }
+  }
+  

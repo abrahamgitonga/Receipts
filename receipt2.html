@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+
+        .invoice {
+            width: 300px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        .invoice-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .invoice-header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .invoice-header p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .invoice-body {
+            margin-bottom: 20px;
+        }
+
+        .invoice-body table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .invoice-body th, .invoice-body td {
+            text-align: left;
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .invoice-body th {
+            background-color: #f4f4f4;
+        }
+
+        .invoice-footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .invoice-footer p {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .total {
+            font-weight: bold;
+        }
+
+        .print-btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        @media print {
+            .print-btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="invoice" id="invoice">
+    <div class="invoice-header">
+        <h1>Company Name</h1>
+        <p>Address Line 1<br>Address Line 2</p>
+    </div>
+
+    <div class="invoice-body">
+        <table>
+            <thead>
+            <tr>
+                <th>Item</th>
+                <th>Qty</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+            </thead>
+            <tbody id="invoice-items">
+                
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3" class="total">Total</td>
+                <td class="total" id="invoice-total">$0.00</td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <div class="invoice-footer">
+        <p>Thank you for your business!</p>
+        <p>www.companywebsite.com</p>
+    </div>
+</div>
+
+<button class="print-btn" onclick="printInvoice()">Print Receipt</button>
+
+<script>
+    const invoiceItems = [
+        { item: 'Product 1', qty: 2, price: 10.00 },
+        { item: 'Product 2', qty: 1, price: 5.50 },
+        { item: 'Product 3', qty: 3, price: 7.25 }
+    ];
+
+    function loadInvoice() {
+        const invoiceItemsElement = document.getElementById('invoice-items');
+        let total = 0;
+
+        invoiceItems.forEach(item => {
+            const row = document.createElement('tr');
+
+            const itemName = document.createElement('td');
+            itemName.textContent = item.item;
+            row.appendChild(itemName);
+
+            const itemQty = document.createElement('td');
+            itemQty.textContent = item.qty;
+            row.appendChild(itemQty);
+
+            const itemPrice = document.createElement('td');
+            itemPrice.textContent = `$${item.price.toFixed(2)}`;
+            row.appendChild(itemPrice);
+
+            const itemTotal = document.createElement('td');
+            const totalPrice = item.qty * item.price;
+            itemTotal.textContent = `$${totalPrice.toFixed(2)}`;
+            row.appendChild(itemTotal);
+
+            total += totalPrice;
+
+            invoiceItemsElement.appendChild(row);
+        });
+
+        document.getElementById('invoice-total').textContent = `$${total.toFixed(2)}`;
+    }
+
+    function printInvoice() {
+        window.print();
+    }
+
+    // Load the invoice data when the page loads
+    window.onload = loadInvoice;
+</script>
+
+</body>
+</html>
