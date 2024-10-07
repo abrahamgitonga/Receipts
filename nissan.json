@@ -1,0 +1,121 @@
+{
+    "Nissan": {
+      "Models": [
+        {
+          "name": "Nissan Altima",
+          "year_from": 1992,
+          "year_to": "present",
+          "types": ["Sedan", "Coupe"]
+        },
+        {
+          "name": "Nissan Maxima",
+          "year_from": 1980,
+          "year_to": "present",
+          "types": ["Sedan"]
+        },
+        {
+          "name": "Nissan GT-R",
+          "year_from": 2007,
+          "year_to": "present",
+          "types": ["Sports Coupe"]
+        },
+        {
+          "name": "Nissan 370Z",
+          "year_from": 2009,
+          "year_to": "2020",
+          "types": ["Sports Coupe"]
+        },
+        {
+          "name": "Nissan 350Z",
+          "year_from": 2002,
+          "year_to": 2009,
+          "types": ["Sports Coupe", "Roadster"]
+        },
+        {
+          "name": "Nissan Rogue",
+          "year_from": 2007,
+          "year_to": "present",
+          "types": ["Compact SUV"]
+        },
+        {
+          "name": "Nissan Murano",
+          "year_from": 2002,
+          "year_to": "present",
+          "types": ["Mid-size SUV"]
+        },
+        {
+          "name": "Nissan Pathfinder",
+          "year_from": 1985,
+          "year_to": "present",
+          "types": ["Mid-size SUV"]
+        },
+        {
+          "name": "Nissan Patrol",
+          "year_from": 1951,
+          "year_to": "present",
+          "types": ["Full-size SUV"]
+        },
+        {
+          "name": "Nissan X-Trail",
+          "year_from": 2000,
+          "year_to": "present",
+          "types": ["Compact Crossover SUV"]
+        },
+        {
+          "name": "Nissan Frontier",
+          "year_from": 1997,
+          "year_to": "present",
+          "types": ["Pickup Truck"]
+        },
+        {
+          "name": "Nissan Titan",
+          "year_from": 2003,
+          "year_to": "present",
+          "types": ["Full-size Pickup Truck"]
+        },
+        {
+          "name": "Nissan Leaf",
+          "year_from": 2010,
+          "year_to": "present",
+          "types": ["Electric Hatchback"]
+        },
+        {
+          "name": "Nissan Versa",
+          "year_from": 2006,
+          "year_to": "present",
+          "types": ["Sedan", "Hatchback"]
+        },
+        {
+          "name": "Nissan Juke",
+          "year_from": 2010,
+          "year_to": "present",
+          "types": ["Subcompact Crossover"]
+        },
+        {
+          "name": "Nissan Sentra",
+          "year_from": 1982,
+          "year_to": "present",
+          "types": ["Sedan"]
+        },
+        {
+          "name": "Nissan Kicks",
+          "year_from": 2016,
+          "year_to": "present",
+          "types": ["Subcompact Crossover"]
+        },
+        {
+          "name": "Nissan Navara",
+          "year_from": 1985,
+          "year_to": "present",
+          "types": ["Pickup Truck"]
+        },
+        {
+          "name": "Nissan Qashqai",
+          "year_from": 2006,
+          "year_to": "present",
+          "types": ["Compact Crossover SUV"]
+        }
+      ]
+    }
+  }
+  
